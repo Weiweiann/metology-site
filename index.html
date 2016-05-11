@@ -24,7 +24,7 @@
 }
 
 .introduction > p {
-  font-family: 'cwTeXKai', serif;
+  font-family: 'cwTeXFangSong', serif;
 }
 
 .media-body > p{
@@ -37,7 +37,6 @@ section{
 
 .section-name h3{
   margin: 0px 0px;
-  color:#FFF;
   font-size: 40px;
   font-family: 'cwTeXHei', serif;
 }
@@ -246,31 +245,54 @@ header {
   margin-top: 5px;
 }
 
+#intro-lead{
+  font-size: 40px;
+}
+
+#intro-detail{
+  font-size: 20px;
+}
+
 </style>
 
 </head>
 
 <!--  hero section -->
-<nav class="navbar navbar navbar-fixed-top" >
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><i class="fa fa-tree" aria-hidden="true"></i> Metology</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav pull-right">
-        <li><a href="#">聯絡我們</a></li>
-        <li><a href="#about">Donate!</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+
+
+<nav class="navbar  navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <i class="fa fa-tree" aria-hidden="true" style="font-size: 30px; color: #337ab7;"></i>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Metology</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">聯絡我們</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Donate!</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+
 
 <header>
     <div class="text-wrap" >
@@ -287,18 +309,18 @@ header {
 <!-- What we solved-->
 <div class="container">
   <div class="introduction">
-    <p class="lead">
+    <p class="lead" id="intro-lead">
     預防醫學，不是口號與夢想，而是正在進行式。</p>
 
-    <p>
+    <p id="intro-detail">
 
 各大醫院相繼成立預防醫學中心，致力於精準醫學，
 針對個人的健康狀況，訂定最符合的個人化醫療。<br>
 
 這股趨勢正在世界蔓延，
-歐美許多知名大公司皆以致力於個人化醫學的發展，
+歐美許多知名大公司皆以致力於個人化醫學的發展，<br>
 亞洲也將隨著股潮流，在醫療體制上掀起下一波巨浪。<br>
-
+<br>
 健檢，
 簡單的醫療行為，
 透過每一項檢查結果專業大數據的交錯分析，
@@ -313,9 +335,11 @@ header {
 </div>
 
 </section>
-<section>
 
-<div class="container-fluid" style="background: rgba(139,195,74,0.8)">
+
+
+<section style="background: rgba(139,195,74,0.3)">
+<div class="container-fluid" >
   <div class="section-name text-center">
       <h3>我們的特色</h3>
   </div>
@@ -395,7 +419,7 @@ header {
 </section>
 <!-- Preliminary result-->
 <section>
-<div class="container-fluid" style="background: rgba(205, 220,57,0.8)">
+<div class="container-fluid" style="background: rgba(205, 220,57,0.0)">
 <div class="section-name text-center">
     <h3>創業經歷</h3>
   </div>
@@ -511,15 +535,15 @@ header {
 
 
 
-<section>
-<div class="container-fluid" style="background: rgba(255,235,59,0.8)">
+<section style="background: rgba(255,235,59,0.5)">
+<div class="container-fluid" >
   <div class="section-name text-center">
   <h3>Metology成員</h3>
   </div>
 </div>
 
 
-<div class="container">
+<div class="container" style="padding-top: 50px">
   <div class="row">
     <div class="col-md-6 staff">
       <div class="media"> 
@@ -605,8 +629,8 @@ header {
 </section>
 
 
-<footer style="background: grey">
-  <div class="container" style="padding-top: 20px">
+<footer style="background: #337ab7">
+  <div class="container text-center" style="padding-top: 20px">
   <address>
   <strong>Twitter, Inc.</strong><br>
   1355 Market Street, Suite 900<br>
