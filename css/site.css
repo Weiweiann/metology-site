@@ -74,7 +74,7 @@ a.navbar-brand{
 
 header {
     padding-top: 30px;
-    background:  url("/images/background.png");
+    background:  url("../images/background.png");
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
