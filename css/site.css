@@ -28,7 +28,7 @@
 }
 
 section{
-  padding: 60px 0px ;
+  padding-bottom: 60px;
 }
 
 .section-name h3{
@@ -82,6 +82,7 @@ header {
 }
 
 .thumbnail{
+
     margin: 5% 10%;
     border: 0px;
 }
