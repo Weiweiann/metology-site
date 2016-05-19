@@ -14,13 +14,48 @@
   width:120px;
 }
 
+.swag{
+    background: url('../images/section.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+
+.icon-area{
+    height: 175px;
+    width: 175px;
+    line-height: 175px;
+    max-width: 100%;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: list-item;
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto 50px;
+    border-color: #8cb0be;
+    border-width: 3px;
+    border-style: solid;
+}
+
 .icons {
   color:#8cb0be;
-  font-size:70px
+  font-size:60px
 }
 
 .media-body > p{
   display: inline-block;
+}
+
+a{
+  color:#8cb0be;
 }
 
 section{
