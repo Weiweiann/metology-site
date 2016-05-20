@@ -32,7 +32,26 @@
     <div id="navbar" class="navbar-collapse collapse pull-right" aria-expanded="true">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">聯絡我們</a></li>
-        <li><a href="#">Donate!</a></li>
+
+        <li class="active" data-toggle="modal" data-target="#myModal"><a>Donate!</a></li>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">T_____________T</h4>
+              </div>
+              <div class="modal-body">
+                你人真好！謝謝你的支持！ 我們在不久的未來將會開始募資，請你繼續支持我們！
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container-fluid -->
@@ -42,10 +61,12 @@
 
 <div class="container-fluid header">
     <div class="text-wrap" >
-        <div class="container">
-        <h1 style="font-family: 'EB Garamond', serif; font-size: 100px; color:#FFF" id="metology-title">Metology</h1>
+        <div class="container text-center">
+        <h1 style="font-family: 'EB Garamond', serif; font-size: 90px; color:#FFF" id="metology-title">Metology</h1>
         <p class="lead sourcehansans-tc-medium " style="color: #E63946; font-size: 30px" id="metology-subtilte">翻轉健檢醫學</p>
         </div>
+
+
     </div>
 </div>
 
@@ -108,7 +129,7 @@
         </div>
         <div class="caption">
           <h4><u>專人分析進階健檢</u></h4>
-          <p>整合健檢資料，將血液、肝指數、尿液等基本數值用以評估使用者未來慢性病的罹患機率</p>
+          <p>整合健檢資料，將血液、肝指數、尿液等基本數值用以評估使用者未來慢性病的罹患機率，由系統建議使用者可以進行其他必要的進階健檢作為預防。</p>
         </div>
       </div>
     </div>
@@ -140,58 +161,65 @@
   <div class="container ipamjm" style="padding-top: 30px">
   <ul class="timeline">
     <li>
-      <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+      <div class="timeline-badge"><i class="fa fa-code" aria-hidden="true"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
           <h4 class="timeline-title">交大傅武雄教授實驗室</h4>
         </div>
         <div class="timeline-body">
-          <p>傅武雄教授團隊將其核心決策樹技術開始應用於各大醫學中心，進行乳癌治療之存活度預測</p>
+          <p>傅武雄教授團隊將其核心決策樹技術開始應用於各大醫學中心，進行乳癌治療之存活度預測，並且將其研究發展在學術專刊</p>
         </div>
       </div>
     </li>
     <li class="timeline-inverted">
-      <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+      <div class="timeline-badge warning"><i class="fa fa-users" aria-hidden="true"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">H.Spectrum</h4>
+          <h4 class="timeline-title">Metology 正式成軍</h4>
         </div>
         <div class="timeline-body">
-          <p>一群來自醫療個領域的夥伴透過H.Spectrum開始連結，對於將資料科學廣泛運用在醫學上的使命感油然而生，希望可以將醫療資源更有效率的運用在每個人的身上</p>
+          <p>一群來自醫療個領域的夥伴透過H.Spectrum開始連結，對於將資料科學廣泛運用在醫學上的使命感油然而生，希望可以將醫療資源更有效率的運用在每個人的身上。</p>
         </div>
       </div>
     </li>
     <li>
-      <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+      <div class="timeline-badge danger"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
           <h4 class="timeline-title">市場調查與規劃</h4>
         </div>
         <div class="timeline-body">
-          <p>進行全球性的市場調查，從台灣到中國，全球性的了解健檢市場</p>
+          <p>進行全球性的市場調查，從台灣到中國，全球性的了解健檢市場。</p>
+          <p>經過我們的調查並且配合遠見雜誌對於健檢的分析，我們估計未來在健檢項目上，台灣能有<strong>10.6億台幣</strong>，中國有<strong>340億台幣</strong>，美國有<strong>3262億台幣</strong>的市場。健檢市場相當具有潛力，並且隨著醫療、長照等問題漸受重視，市場估值可能會更加樂觀</p>
         </div>
       </div>
     </li>
     <li class="timeline-inverted">
+      <div class="timeline-badge primary"><i class="fa fa-question" aria-hidden="true"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
           <h4 class="timeline-title">問卷調查與台灣健檢現況</h4>
         </div>
         <div class="timeline-body">
-          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+          <p>我們自行進行問卷調查，在將近500份的問卷調查中，我們發現我們的問卷結果與遠見雜誌的健檢普查不謀而合，發現低階健檢市場在未來相當有潛力。隨著個人化醫療的世紀到來，我們期望可以透過我們的決策樹系統，將基本的健檢資料剖析，評估每位使用者未來罹患慢性病的可能，進而建議進行其他必要的進階健檢，取代貴鬆鬆且不清楚適不適用的健檢套餐</p>
         </div>
       </div>
     </li>
-    <li class="timeline-inverted">
-      <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+    <li class="timeline-panel">
+      <div class="timeline-badge success"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
           <h4 class="timeline-title">未來方向</h4>
         </div>
         <div class="timeline-body">
-          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+          <p>
+            <ul>
+                <li>2016-2018：與台灣的醫學中心、合作，除健檢資訊之外，也配合醫院歷屆資料找尋其他疾病的潛在原因。成立公司，進行人力資源、行政流程的設立，再進一步地進行媒體宣傳</li>
+                <li>2018-2020：與地方醫院、健檢中心診所、學術研究中心接觸，持續擴增資料庫之外，也將系統升級</li>
+                <li>2020-2021：與台灣健檢資料庫、BioBank合作，並且逐漸拓展大陸市場</li>
+                <li>與永越健檢公司合作，進行穿戴式裝置的資料探勘</li>
+          </ul>
+           </p>
         </div>
       </div>
     </li>
@@ -279,8 +307,8 @@
         <div class="media-body">
         <h3 class="media-heading">陳婉宜</h3>
         <p>
-          台大醫工所碩士<br>
-          扎實的過每一天是她的原則，用超音波增強藥物傳遞是她的強項。如果要問她什麼不會，大概只有不知道該從何找起一個合適陪伴一生的人。即將遠赴美國就讀醫學工程博士班，未來的台灣之光！
+          現任中研院研究人員<br>
+          扎實的過每一天是她的原則，用超音波增強藥物傳遞是她的強項。希望能將自己所學所能，連結各式領域的專業，將學界的精華帶入業界合作。即將遠赴美國就讀醫學工程博士班，未來的台灣之光！
         </p>
         </div> 
       </div>
@@ -293,7 +321,7 @@
         <div class="media-body">
         <h3 class="media-heading">王偉安</h3>
         <p>
-          內湖生技公司上班的小小研究員
+          內湖生技公司研究員
           <br>
           台大生醫電子所碩畢，耗盡兩年心力關注基因序列中影響人類存活率的潛規則，很多東西都是略懂略懂，只能說人生能走到現在運氣還算不錯。
         </p>
@@ -309,7 +337,7 @@
         <h3 class="media-heading">李哲銓</h3>
         <p>
         清大資工所碩士生<br>
-          在百般忙碌的課程之中，毅然決然投入生醫創業，希望科技除了能夠為人類帶來便利及娛樂之外，更能夠為了人類的福祉奉獻心臟
+          在百般忙碌的課程、研究之餘，投入醫療資訊領域，希望能多學一些學校學不到的經驗，也希望能夠帶給社會一些正向影響力
         </p>
         </div>
       </div>
@@ -333,13 +361,13 @@
 
 
   <div class="col-md-4" style="padding: 20px 0;">
-  <span style="font-family: 'Lobster', cursive; font-size:60px; color: #FFF">H.Spectrum</span>
+  <span style="font-family: 'Lobster', cursive; font-size:60px; color: #FFF; max-width: 300px">H.Spectrum</span>
   </div>
   <div class="col-md-4" style="padding: 20px 0;">
-  <img src='images/Yonglin.png' style="width: 80%"></img>
+  <img src='images/Yonglin.png' style="width: 80%;max-width: 300px"></img>
   </div>
   <div class="col-md-4" style="padding: 20px 0;">
-  <img src='images/fareast.png' style="width: 80%"></img>
+  <img src='images/fareast.png' style="width: 80%; max-width: 300px"></img>
   </div>
 
   </div>
