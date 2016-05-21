@@ -111,8 +111,7 @@ a.navbar-brand{
 }
 
 .text-wrap{
-  padding-top: 300px;
-  padding-bottom: 250px;
+  padding-top: 25%;
   display: flex;
   align-items: center;
 
@@ -125,6 +124,7 @@ a.navbar-brand{
     background-attachment: scroll;
     background-size: cover;
     overflow: hidden;
+    height:100%;
 }
 
 .thumbnail{
